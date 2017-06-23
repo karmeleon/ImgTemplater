@@ -2,7 +2,7 @@
 
 A quick, dirty script to generate .png files from an HTML template and a .csv file.
 
-#Installation
+# Installation
 
 Requires Python 3.6 and `google-chrome` in your path. Tested on Ubuntu, but any OS that supports headless Chrome should work, assuming you update the code to point to the executable.
 
@@ -10,7 +10,7 @@ Requires Python 3.6 and `google-chrome` in your path. Tested on Ubuntu, but any 
 pip install -r requirements.txt
 ```
 
-#Usage
+# Usage
 
 ```
 python3.6 imgtemplater.py -c example/data.csv -t example/template.html -x 460 -y 660 -o example
