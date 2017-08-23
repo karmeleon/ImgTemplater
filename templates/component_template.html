@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=2">
+		<title>Card template</title>
+		<style>
+			body {
+				font-family: 'Helvetica', sans-serif;
+				margin: 0;
+				zoom: 2;
+				background-color: transparent;
+			}
+
+			h1 {
+				font-size: 16px;
+				text-align: center;
+				margin: 0;
+			}
+
+			h2 {
+				font-size: 14px;
+				text-align: center;
+				margin: 0;
+			}
+
+			h3 {
+				font-size: 11px;
+				text-align: center;
+			}
+
+			p {
+				margin: 0;
+			}
+
+			.card-outer {
+				width: 230px;
+				height: 330px;
+				box-sizing: border-box;
+				border: 15px solid #404040; /*TEMPLATE*/
+				background-color: #BDD7EE; /*TEMPLATE*/
+				border-radius: 10px;
+				padding: 15px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+
+			.card-outer.foil {
+				border-color: #d4af37;
+			}
+
+			.ritual-level-container {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+
+			.ritual-level-container > .ritual-level-container {
+				display: inline-block;
+				width: 100%;
+			}
+
+			.ritual {
+				flex-grow: 3;
+			}
+
+			.ritual > h2 {
+				text-align: right;
+			}
+
+			.level {
+				flex-grow: 1;
+			}
+
+			.description {
+				font-size: 12px;
+			}
+
+			.flavor-text {
+				font-size: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		#set($colors = {})
+		#set($colors.Divination = '#bdd7ee')
+		#set($colors.Abjuration = '#ddd')
+		#set($colors.Evocation = '#e17f50')
+		#set($colors.Enchantment = '#dda0dd')
+		#set($colors.Transmutation = '#eedd82')
+		#set($colors.Necromancy = '#7dbc00')
+		#set($colors.Conjuration = '#ebdbdb')
+		#set($colors.Illusion = '#63b8ff')
+		#set($colors.Universal = '#c1cdcd')
+
+		#set($color1 = $colors[$school1])
+		#if($school2)
+			#set($color2 = $colors[$school2])
+		#else
+			#set($color2 = $color1)
+		#end
+		<div class="card-outer" style="background: linear-gradient(90deg, $color2, $color1">
+			<header>
+				<h1 class="title">
+					$name
+				</h1>
+				<h3 class="class">
+					$rarity $type
+				</h3>
+				<h2>
+					#if($school2 != '')
+						$school1, $school2
+					#else
+						$school1
+					#end
+				</h2>
+			</header>
+			<content>
+				<p class="description">
+					$desc
+				</p>
+			</content>
+			<footer>
+				<p class="flavor-text">
+					<i>
+						$flavor
+					</i>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

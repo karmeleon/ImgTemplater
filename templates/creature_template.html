@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=2">
+		<title>Card template</title>
+		<style>
+			body {
+				font-family: 'Helvetica', sans-serif;
+				margin: 0;
+				zoom: 2;
+				background-color: transparent;
+			}
+
+			h1 {
+				font-size: 16px;
+				text-align: center;
+				margin: 0;
+			}
+
+			h2 {
+				font-size: 14px;
+				text-align: center;
+				margin: 0;
+			}
+
+			h3 {
+				font-size: 11px;
+				text-align: center;
+			}
+
+			p {
+				margin: 0;
+			}
+
+			.card-outer {
+				width: 230px;
+				height: 330px;
+				box-sizing: border-box;
+				border: 15px solid #404040; /*TEMPLATE*/
+				background-color: #ebdbdb;
+				border-radius: 10px;
+				padding: 15px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+
+			.description {
+				font-size: 12px;
+			}
+
+			.stats-container,
+			table {
+				width: 100%;
+			}
+
+			.stats-container td {
+				width: 33.33%;
+				font-size: 12px;
+			}
+
+			.flavor-text {
+				font-size: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card-outer">
+			<header>
+				<h1 class="title">
+					$name
+				</h1>
+				<h3 class="class">
+					$rarity [$type]
+				</h3>
+				<div class="stats-container">
+					<table>
+						<tbody>
+							<tr>
+								<td>HP: $hp</td>
+								<td>AC: $ac</td>
+								<td>Level $level</td>
+							</tr>
+							<tr>
+								<td>STR $str</td>
+								<td>DEX $dex</td>
+								<td>CON $con</td>
+							</tr>
+							<tr>
+								<td>INT $int</td>
+								<td>WIS $wis</td>
+								<td>CHA $cha</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</header>
+			<content>
+				<p class="description">
+					$desc
+				</p>
+			</content>
+			<footer>
+				<p class="flavor-text">
+					<i>
+						$flavor
+					</i>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

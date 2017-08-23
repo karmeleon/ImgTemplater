@@ -1,0 +1,15 @@
+id,level,name,type,rarity,hp,ac,str,dex,con,int,wis,cha,desc,flavor
+258,1,Wandering Mule,Beast,Common,11,10,14,10,13,2,10,5,"Speed 30. <br/>Taking damage does not force a Concentration saving throw to maintain Wandering Mule. <br/>Hooves. +2 to hit, Melee. 1d4+2 bludgeoning damage.","It always manages to find its way back to you, with or without the cargo."
+259,1,Dazzling Owl,Beast,Common,12,11,5,13,7,2,12,7,"Fly 60. Darkvision 120 ft. <br/>Dazzling Owl can be sacrificed to cast a Transmutation Spell without Components. <br/>Talons. +3 to Hit, Melee. 1 Piercing Damage.",
+260,1,Piling Rats,Beast,Common,25,10,9,11,9,2,10,3,"Speed 30. Swarm. <br/>Bites: +2 hit, Melee in the Swarm's space. 2d6 Piercing damage.",The first line of defence for the ameteur Conjurer.
+261,1,Moving Shrub,Plant,Common,10,9,3,8,11,10,10,6,"Speed 20. <br/>While the shrub remains motionless, it is indistinguishable from a normal shrub.",
+262,1,Marcus's Mastiff,Beast,Uncommon,5,12,13,14,12,3,12,7,"Speed 40. <br/>Bite: +3 to hti, Melee. 1d6 Piercing damage. <br/>If Marcus's Mastiff is reduced to 0 hit points, it returns to your hand.","It follows its master's order with a blind loyalty, waiting for his eventual affection."
+263,2,Rattling Skeleton,Undead,Common,13,13,10,14,15,6,8,5,"Vulnerable to bludgeoning. <br/>Shortsword: +4 to hit, melee. 1d6 +2 piercing damage.",
+264,2,Skeleton Bard,Undead,Uncommon,9,14,10,15,15,6,8,5,"Vulnerable to bludgeoning. <br/>Trumpet: +2 to hit, melee. 1d4 + 1 bludgeoning damage. <br/>Choose an target creature. As long as Skeleton Bard is on the field, said creature gains a +1 to hit.",
+265,2,Lucky Cat,Beast,Uncommon,2,12,3,15,10,3,12,7,"Speed 40. Keen Smell. <br/>Reaction: If you are subjected to a saving throw, you may cast Lucky Cat normally and gain advantage against that saving throw.",
+266,2,Storm Crow,Fey,Common,9,14,8,16,8,3,14,5,"Fly 60. <br/>Talons: +4 to hit, melee. 1d6+2 piercing damage.","Storm crow descending, winter unending. Storm crow departing, summer is starting."
+267,2,Mindless Drone,Construct,Common,11,15,11,13,12,6,10,7,"Speed 30. Multiattack 2. <br/>Spear: +3, Melee or Ranged 30/120. 1d6+1 Piercing damage.","""Milyad made dozens of them… left in his cellar. One day we found hundreds of stab wounds no his body."""
+268,2,Agile Bullywug,Humanoid (Bullywug),Rare,11,16,12,14,13,7,10,7,"Speed 20. Multiattack 2. <br/>Bite. +3 to hit, Melee. 1d4+1 bludgeoning damage. <br/>Whenever you play a Component card, Agile Bullywug may take another move action.",
+269,3,Spined Devil,Fiend (Devil),Rare,22,13,10,15,12,11,14,8,"Fly 40. Immunities to Fire and Poison. Multiattack 2. <br/>Tail Spine. +4 to hit, range 20/80. 1d4+2 Piercing damage plus 1d6 fire damage.",
+270,3,Olaf the Stout,Humanoid Viking,Epic,32,11,15,11,14,10,10,11,"Speed 30. Pack Tactics. <br/>Shield Bash. +4 to hit, melee. 1d6+2 bludgeoning damage. <br/>When Olaf the Stout is reduced to 0 hit points, you regain a 2nd Level Spell Slot.",
+271,2,Zealous Medic,Humanoid,Uncommon,12,14,10,14,8,14,14,11,"Speed 30. Advantage on Medicine checks. <br/>Dagger. +3 to hit, melee. 1d3+1 Piercing damage.",

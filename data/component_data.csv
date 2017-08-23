@@ -1,0 +1,18 @@
+id,name,type,school1,school2,rarity,desc,flavor
+216,Iron Powder,Component,Abjuration,Conjuration,Common,,
+217,Amber Eyelash,Component,Illusion,Enchantment,Common,,
+218,Drop of Mercury,Component,Conjuration,Evocation,Common,,
+219,Sweetened Oil,Component,Enchantment,Divination,Common,,
+220,Sulfur Oil,Component,Evocation,Necromancy,Common,,
+221,Dowsing Twig,Component,Divination,Transmutation,Common,,
+222,Bit O' Flesh,Component,Necromancy,Universal,Common,,
+223,Clean Lead,Component,Transmutation,Abjuration,Common,,
+224,Lotus Petal,Component,Universal,Illusion,Rare,This Component can be used to cast a Spell of any School.,"""Hard to imagine,"" mused Hanna, stroking the petal, ""such a lovely flower inspiring such greed."""
+225,Gold Dust,Component,Abjuration,Conjuration,Uncommon,"After using this Component, you gain 1AC until your next turn.","""You musn't use anygold dust, mind you. Lest you want orcs inside your tower."" -Norin"
+226,Brightened Honeycomb,Component,Illusion,,Uncommon,"After using this Component, you may draw a card. If you do, discard a card.",An Illusionist that claims that 'simple honey' will do is just a dirty Enchanter.
+227,Creature Incense,Component,Conjuration,Evocation,Uncommon,"If you use this Component to put a creature into play, you may give it an additional 1d6 hit points.","Fey Spirits, Elementals, even Outsiders. They all appreciate a little bit of enticement."
+228,Silver-Dipped Tongue,Component,Enchantment,,Uncommon,"If you use this Component to cast a spell with a Wisdom Saving Throw, that Save has a increased DC of 1.","""I've always called it 'tact', despite what others say. They get the words they want to hear, I get my gold. And we're all happy."" -The Soul Snatching Smith"
+229,Processed Guano,Component,Evocation,,Uncommon,"If you use this Component to cast a spell that deals damage, that spell deals an additional 1d4 damage.","The Guano Shortage of the 80th Cycle started with a single torch dripping, and ended with a pyre that lit the nation."
+230,Glass Eye,Component,Divination,Transmutation,Uncommon,"After using this Component, you may draw a card.","""I'm just glad I didn't choose the School of Enchanting. Their glasses may be cuter, but at least I can see clearly through mine."" -A Divination Graduate"
+231,Blood Copper,Component,Necromancy,Abjuration,Uncommon,"If you use this Component to cast a spell, that spell requires no somatic components.",What sort of man dies for copper? The unlucky fool.
+232,Feather of Owl,Component,Transmutation,Illusion,Uncommon,"After using this Component, you may take a five foot step.","THE CONGREGATOR'S GUILD USES FEATHERS FROM MICE-FED, FREE RANGE, UNCLIPPED OWLS PROTECTED BY FALSE-LIFE NECROMANCERS. NO OWLS ARE EVER HARMED BY THE PRODUCTION OF FEATHER BASED COMPONENTS."

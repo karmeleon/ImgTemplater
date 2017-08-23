@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=2">
+		<title>Card template</title>
+		<style>
+			body {
+				font-family: 'Helvetica', sans-serif;
+				margin: 0;
+				zoom: 2;
+				background-color: transparent;
+			}
+
+			h1 {
+				font-size: 16px;
+				text-align: center;
+				margin: 0;
+			}
+
+			h2 {
+				font-size: 14px;
+				text-align: center;
+				margin: 0;
+			}
+
+			h3 {
+				font-size: 11px;
+				text-align: center;
+			}
+
+			p {
+				margin: 0;
+			}
+
+			.card-outer {
+				width: 230px;
+				height: 330px;
+				box-sizing: border-box;
+				border: 15px solid #404040; /*TEMPLATE*/
+				background-color: #BDD7EE; /*TEMPLATE*/
+				border-radius: 10px;
+				padding: 15px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+
+			.ritual-level-container {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+
+			.ritual-level-container > .ritual-level-container {
+				display: inline-block;
+				width: 100%;
+			}
+
+			.ritual {
+				flex-grow: 3;
+			}
+
+			.ritual > h2 {
+				text-align: right;
+			}
+
+			.level {
+				flex-grow: 1;
+			}
+
+			.description {
+				font-size: 12px;
+			}
+
+			.flavor-text {
+				font-size: 10px;
+			}
+
+			/* School background colors */
+			.Divination {
+				background-color: #bdd7ee;
+			}
+
+			.Abjuration {
+				background-color: #ddd;
+			}
+
+			.Evocation {
+				background-color: #e17f50;
+			}
+
+			.Enchantment {
+				background-color: #dda0dd;
+			}
+
+			.Transmutation {
+				background-color: #eedd82;
+			}
+
+			.Necromancy {
+				background-color: #7dbc00;
+			}
+
+			.Conjuration {
+				background-color: #ebdbdb;
+			}
+
+			.Illusion {
+				background-color: #63b8ff;
+			}
+
+			.Universal {
+				background-color: #c1cdcd;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="card-outer $school">
+			<header>
+				<h1 class="title">
+					$name
+				</h1>
+				<h3 class="class">
+					$rarity $school Spell
+				</h3>
+				<div class="ritual-level-container">
+					<div class="ritual-level-inner ritual">
+						<h2>
+							#if($ritual == 'Yes')
+								Ritual
+							#end
+						</h2>
+					</div>
+					<div class="ritual-level-inner level">
+						<h2>
+							Level $level
+						</h2>
+					</div>
+				</div>
+			</header>
+			<content>
+				<p class="description">
+					$desc
+				</p>
+			</content>
+			<footer>
+				<p class="flavor-text">
+					<i>
+						$flavor
+					</i>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
